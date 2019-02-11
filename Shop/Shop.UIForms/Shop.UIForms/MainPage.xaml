@@ -4,11 +4,261 @@
              xmlns:local="clr-namespace:Shop.UIForms"
              x:Class="Shop.UIForms.MainPage">
 
+
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Frame
+            HasShadow="True"
+            Margin="5"
+            CornerRadius="20">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CirreImpulCommand}"/>
+            </Frame.GestureRecognizers>
+            <Grid 
+                Padding="-5, -10, 0, -10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Text="Fecha"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"
+                    Text="01-02-2019"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="Zona:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"                                    
+                    Text="Laureles"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="Parq:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"
+                    Text="Bolibariana-1"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="ID:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Text="1036668283 - Andres Felipe Diaz Muñoz"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"
+                    Text="14.000"
+                    TextColor="Black">
+                </Label>
+            </Grid>
+        </Frame>
+        <Frame
+            HasShadow="True"
+            Margin="5"
+            CornerRadius="20">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CirreImpulCommand}"/>
+            </Frame.GestureRecognizers>
+            <Grid 
+                Padding="-5, -10, 0, -10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Text="Fecha"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"
+                    Text="01-02-2019"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="Zona:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"                                    
+                    Text="Laureles"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="Parq:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    HorizontalOptions="Start"
+                    Text="Bolibariana-1"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="ID:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    Text="1036668283 - Andres Felipe Diaz Muñoz"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"
+                    Text="14.000"
+                    TextColor="Black">
+                </Label>
+            </Grid>
+        </Frame>
+        <Frame
+            HasShadow="True"
+            Margin="5"
+            CornerRadius="20">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CirreImpulCommand}"/>
+            </Frame.GestureRecognizers>
+            <Grid 
+                Padding="-5, -10, 0, -10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Text="Fecha"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="Start"
+                    Text="01-02-2019"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Column="0"
+                    Text="Zona:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="Start"                                    
+                    Text="Laureles"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Column="0"
+                    Text="Parq:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="Start"
+                    Text="Bolibariana-1"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Column="0"
+                    Text="ID:"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Grid.Column="1"
+                    Text="1036668283 - Andres Felipe Diaz Muñoz"
+                    TextColor="Black">
+                </Label>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"
+                    Text="14.000"
+                    TextColor="Black">
+                </Label>
+            </Grid>
+        </Frame>
+        <Button
+                Text="Volver"
+                Command="{Binding VolverCommand}">
+        </Button>
     </StackLayout>
 
 </ContentPage>
